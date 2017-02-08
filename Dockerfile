@@ -14,7 +14,12 @@ RUN npm install -g \
   node-red-contrib-freeboard \
   node-red-contrib-mpd \
   node-red-contrib-cron \
-  node-red-node-wemo 
+  node-red-node-wemo \
+  node-red-contrib-md5 \
+  node-red-contrib-splitter \
+  node-red-node-sqlite \
+  node-red-contrib-redis \
+  node-red-contrib-elasticsearch3
 
 # We expose the node-red port so that we can access it from the host
 EXPOSE 1880

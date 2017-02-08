@@ -12,4 +12,3 @@ Node-RED is a tool for wiring together hardware devices, APIs and online service
 
 \- [Node-RED](http://nodered.org/)
 
-## Uodated
