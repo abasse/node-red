@@ -19,7 +19,11 @@ RUN npm install -g \
   node-red-contrib-splitter \
   node-red-node-sqlite \
   node-red-contrib-redis \
-  node-red-contrib-elasticsearch3
+  node-red-contrib-elasticsearch3 \
+  node-red-node-pushbullet \
+  node-red-node-feedparser \
+  node-red-contrib-file-upload
+
 
 # We expose the node-red port so that we can access it from the host
 EXPOSE 1880
